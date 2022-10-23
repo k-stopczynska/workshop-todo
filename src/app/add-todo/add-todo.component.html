@@ -1,0 +1,11 @@
+<form class="add-todo-form" (submit)="onSubmit()" [formGroup]="form">
+  <input
+    type="text"
+    name="text"
+    id="text"
+    formControlName="item"
+    placeholder="Add something todo"
+  />
+  <button class="button-save" type="submit">save</button>
+</form>
+<app-todo-list [list]="listOfItems"></app-todo-list>

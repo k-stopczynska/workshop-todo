@@ -1,0 +1,8 @@
+<div class="todo-container">
+  <ul class="todo-list" *ngFor="let item of list">
+    <li class="todo-item">
+      <span>{{ item }}</span>
+      <button class="button-remove" (click)="removeTodo(i)">Remove</button>
+    </li>
+  </ul>
+</div>

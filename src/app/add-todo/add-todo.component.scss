@@ -1,0 +1,17 @@
+.add-todo-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text,
+.button-save {
+    padding: .5rem;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.button-save {
+    background-color: green;
+    color: white;
+}
